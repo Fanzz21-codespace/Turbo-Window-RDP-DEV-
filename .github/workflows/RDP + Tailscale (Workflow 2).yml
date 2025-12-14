@@ -22,7 +22,7 @@ defaults:
 
 jobs:
   run-rdp:
-    runs-on: windows-latest
+    runs-on: self-hosted
     timeout-minutes: 370
     env:
       RDP_USER: Bullettemporary
