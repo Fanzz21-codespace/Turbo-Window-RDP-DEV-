@@ -22,7 +22,7 @@ defaults:
 
 jobs:
   setup:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       matrix: ${{ steps.mk.outputs.matrix }}
     steps:
